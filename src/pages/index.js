@@ -1,9 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
-import {Button} from '../components/Button'
+import {Button, IconButton} from '../components/Button'
+
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import { ReactLogo } from 'styled-icons/fa-brands/ReactLogo'
+
 
 const IndexPage = () => (
   <Layout>
@@ -13,6 +16,9 @@ const IndexPage = () => (
     <p>Now go build something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Button>Test</Button>
+     <br/>
+     <IconButton icon= {<ReactLogo/>}/>
+     <br/>
       <Image />
     </div>
     <Link to="/page-2/">Go to page 2</Link>
