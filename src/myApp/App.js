@@ -40,6 +40,16 @@ class App extends Component {
                 image: ["https://www.tasteofhome.com/wp-content/uploads/2018/04/exps376_DOAD1630301D07.jpg"]
 
             },
+            {
+                title:"Cast-Iron Skillet Steak",
+                ingredients:["1 tablespoon kosher salt, divided", "1 beef NY strip or ribeye steak (1 pound), 1-inch thick"],
+                steps:["Remove steak from refrigerator and sprinkle with 2 teaspoons salt; let stand 45-60 minutes.",
+                       "Preheat a cast-iron skillet over high heat until extremely hot, 4-5 minutes. Sprinkle remaining 1 teaspoon salt in bottom of skillet; pat beef dry with paper towels. Place steak into skillet and cook until steak is easily moved, 1-2 minutes; flip, placing steak in a different section of the skillet. Cook 30 seconds and then begin moving steak, occasionally pressing slightly to ensure even contact with skillet.", 
+                        "Continue turning and flipping until cooked to desired degree of doneness (for medium-rare, a thermometer should read 135°; medium, 140°; medium-well, 145°), 1-2 minutes."],
+                id:"Steak",
+                image:["https://www.tasteofhome.com/wp-content/uploads/2019/02/Cast-Iron-Skillet-Steak_EXPS_CIMZ19_235746_B01_15_10b-696x696.jpg"]
+
+            },
             ],  
             selectedRecipe: null               
             
