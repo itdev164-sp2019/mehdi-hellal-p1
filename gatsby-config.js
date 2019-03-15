@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Recipe Book`,
+    description: `Recipe Book is a Gatsby and ReactJs project to practice building components, styled components, rebass...
+    This App stores some recipes and might have the option of adding the user's own recipes in the the future `,
     author: `@gatsbyjs`,
   },
   plugins: [
